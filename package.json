@@ -6,7 +6,8 @@
   "author": "Alice Kile <buoyantair@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node esbuild.mjs"
+    "build": "node esbuild/build.mjs",
+    "watch": "node esbuild/watch.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.21.3"

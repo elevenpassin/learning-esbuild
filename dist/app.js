@@ -12632,6 +12632,7 @@
   var React = __toESM(require_react());
   var Server = __toESM(require_server_browser());
   var Greet = () => /* @__PURE__ */ React.createElement("h1", null, "Hello, world!");
+  console.log("Hello world");
   console.log(Server.renderToString(/* @__PURE__ */ React.createElement(Greet, null)));
 })();
 /*! Bundled license information:
